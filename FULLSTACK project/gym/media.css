@@ -1,0 +1,226 @@
+
+@media (max-width: 678px) {
+    body {
+        background-color: #696e71;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        padding: 10px 15px !important;
+    }
+
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .content-home2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-heading {
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 20px; /* Adjusted margin */
+    }
+
+    .para-home {
+        font-size: 12px;
+        text-align: center;
+        margin: 12px 0px;
+    }
+
+    .home-links {
+        padding: 8px 20px;
+        font-size: 12px;
+        margin: 15px 0px;
+    }
+
+    .img-home {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .about-us-container {
+        height: auto;
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .about-us {
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .content-about {
+        padding: 10px 15px;
+    }
+
+    .heading-about {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .para-about {
+        font-size: 12px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .link-about {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+
+    .img-about {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    .product-category {
+        height: auto;
+        padding: 10px;
+    }
+
+    .heading-product {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+
+    .card-product {
+        padding: 10px 5px;
+    }
+
+    .img-card {
+        height: auto !important;
+    }
+
+    .card-title {
+        font-size: 16px;
+        padding: 5px 0px;
+        margin: 10px 0px;
+    }
+
+    .card-text {
+        font-size: 11px;
+    }
+
+    .btn-product-ctg,
+    .btn-product-prg {
+        font-size: 12px;
+    }
+
+    .button-left,
+    .button-right {
+        top: 120px;
+    }
+
+    .contact-container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .heading-contact {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .content-contact {
+        max-width: 90%;
+        padding: 15px 20px;
+    }
+
+    .contact-label {
+        font-size: 10px;
+    }
+
+    .contact-input {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .btn-contact {
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+
+    .img-contact {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin: 5px 0px;
+    }
+
+    .footer-links li a {
+        font-size: 12px;
+    }
+
+    .footer-social-icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer-social-icons li a {
+        font-size: 14px;
+    }
+
+    #scrollToTop {
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+/* Base styles for box-container2 */
+.box-container2 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #696e71;
+    border-radius: 10px;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 576px) {
+    .about-us {
+        padding: 10px;
+        margin-bottom: 20px; /* Ensure there's space below product category */
+    }
+
+    .box-container2 {
+        margin-top: 50px;
+        padding: 10px;
+        background-color: #2a2a2a;
+    }
+
+    .img-home {
+        width: 340px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+
+    .home-heading {
+        font-size: 32px;
+        line-height: 52px;
+    }
+}
